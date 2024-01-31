@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zpdems.org/posts/post-with-media/</loc>
-    <lastmod>2021-09-03T00:00:00.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zpdems.org/posts/basic-post/</loc>
-    <lastmod>2021-09-05T00:00:00.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>https://zpdems.org/404.html</loc>
     <lastmod>2024-01-31T01:50:56.680Z</lastmod>
   </url>
@@ -58,11 +48,6 @@
   
   <url>
     <loc>https://zpdems.org/talkingpoints/</loc>
-    <lastmod>2024-01-31T01:50:56.758Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zpdems.org/tags/post/</loc>
     <lastmod>2024-01-31T01:50:56.758Z</lastmod>
   </url>
   
