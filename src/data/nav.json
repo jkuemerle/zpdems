@@ -21,14 +21,19 @@
             "title": "Talking Points"
         },
         {
-            "name": "Hate",
-            "url": "/hate",
-            "title": "Hate"
+            "name": "Hate Watch",
+            "url": "/hatewatch",
+            "title": "Hate Watch"
         },
         {
             "name": "Donate",
             "url": "/donate",
             "title": "Donate!"
+        },
+        {
+            "name": "Events",
+            "url": "/events",
+            "title": "Events"
         },
         {
             "name": "Posts",
