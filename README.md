@@ -1,2 +1,0 @@
-# Zimmerman-Pierce Democrats
-
