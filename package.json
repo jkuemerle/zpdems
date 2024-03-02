@@ -1,7 +1,7 @@
 {
-  "name": "Zimmerman-Pierce-Democrats",
+  "name": "Zimmerman-Peirce-Democrats",
   "version": "1.0.0",
-  "description": "Zimmerman-Pierce Democrats",
+  "description": "Zimmerman-Peirce Democrats",
   "scripts": {
     "eleventy:serve": "cross-env ELEVENTY_ENV=development eleventy --serve --quiet",
     "eleventy:build": "cross-env ELEVENTY_ENV=production eleventy",
@@ -16,7 +16,7 @@
     "email": "joe@kuemerle.com",
     "url": "https://zpdems.org"
   },
-  "license": "Copyright 2024 Zimmerman-Pierce Democrats",
+  "license": "Copyright 2024 Zimmerman-Peirce Democrats",
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
