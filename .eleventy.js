@@ -14,6 +14,7 @@ module.exports = function (config) {
   });
   // PASSTHROUGHS
   config.addPassthroughCopy("src/assets/images/");
+  config.addPassthroughCopy("src/CNAME");
 
   // LAYOUTS //
   config.addLayoutAlias("base", "layouts/base.njk");
