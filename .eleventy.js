@@ -15,6 +15,7 @@ module.exports = function (config) {
   // PASSTHROUGHS
   config.addPassthroughCopy("src/assets/images/");
   config.addPassthroughCopy("src/CNAME");
+  config.addPassthroughCopy("src/admin");
 
   // LAYOUTS //
   config.addLayoutAlias("base", "layouts/base.njk");
