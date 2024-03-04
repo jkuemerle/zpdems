@@ -16,6 +16,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("src/assets/images/");
   config.addPassthroughCopy("src/CNAME");
   config.addPassthroughCopy("src/admin");
+  config.addPassthroughCopy("src/.netlify");
 
   // LAYOUTS //
   config.addLayoutAlias("base", "layouts/base.njk");
