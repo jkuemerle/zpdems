@@ -11,7 +11,6 @@
     <style>
       {{ css | cssmin | safe }}
     </style>
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <div id="layout">
@@ -24,16 +23,5 @@
       {% include "partials/footer.njk" %}
     </div>
   </body>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", (user) => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b1d6813736ea49cb87bfce17d45bff35"}'></script><!-- End Cloudflare Web Analytics -->
 </html>
