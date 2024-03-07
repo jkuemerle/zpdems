@@ -26,6 +26,9 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
         run: npx tinacms build
 
+      - name: copy admin index
+        cmd: cp ./src/admin/index.html ./src/admin/admin.html
+
       # - name: Remove the .gitignore that Tina adds so it  deploys correctly
       #   run: | 
       #     rm -f -v \
@@ -44,13 +47,13 @@ jobs:
       # - name: Find ignore after final rm
       #   run: find . -name ".gitignore" -print
 
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3.8.0
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     #publish_dir is the folder on the docker instance which eleventy builds the pages to.
-      #     #it is not the docs folder in the repository
-      #     publish_dir: docs
-      #     #publish_branch is the branch in the repository.
-      #     #this is where you need to point GitHub pages
-      #     publish_branch: gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #publish_dir is the folder on the docker instance which eleventy builds the pages to.
+          #it is not the docs folder in the repository
+          publish_dir: docs
+          #publish_branch is the branch in the repository.
+          #this is where you need to point GitHub pages
+          publish_branch: gh-pages
