@@ -37,7 +37,7 @@ jobs:
             /src/admin/.gitignore
 
       - name: find index.html
-          run: find index.html -print
+        run: find index.html -print
         #run: cp /src/admin/index.html /docs/admin
 
       - name: Deploy
