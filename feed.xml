@@ -4,46 +4,10 @@
   <subtitle>Zimmerman-Peirce Democrats</subtitle>
   <link href="" rel="self"/>
   <link href=""/>
-  <updated>2024-03-07T19:20:02Z</updated>
+  <updated>2024-03-07T19:31:03Z</updated>
   <id>https://zpdems.org</id>
   <author>
     <name>Joe Kuemerle</name>
     <email>joe@kuemerle.com</email>
   </author>
-  
-  <entry>
-    <title>Hate Post 1</title>
-    <link href="/posts/Hate-Post-1/"/>
-    <updated>2024-03-06T00:00:00Z</updated>
-    <id>/posts/Hate-Post-1/</id>
-    <content type="html">&lt;p&gt;This is hate post #1&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Talking Points Post #1</title>
-    <link href="/posts/Talking-Points-Post-1/"/>
-    <updated>2024-03-06T00:00:00Z</updated>
-    <id>/posts/Talking-Points-Post-1/</id>
-    <content type="html">&lt;p&gt;Talking point stuff&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Event Post 1</title>
-    <link href="/posts/Event-Post-1/"/>
-    <updated>2024-03-07T00:00:00Z</updated>
-    <id>/posts/Event-Post-1/</id>
-    <content type="html">&lt;p&gt;This is an event post&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Hate Post 2</title>
-    <link href="/posts/Hate-Post-2/"/>
-    <updated>2024-03-07T05:00:00Z</updated>
-    <id>/posts/Hate-Post-2/</id>
-    <content type="html">&lt;p&gt;This is hate post #2&lt;/p&gt;
-</content>
-  </entry>
 </feed>
