@@ -27,7 +27,7 @@ jobs:
         run: npx tinacms build
 
       - name: Find ignore after tina
-        run: find . -file ".gitignore" -print
+        run: find . -name ".gitignore" -print
 
       - name: Remove the .gitignore that Tina adds so it  deploys correctly
         run: | 
@@ -36,13 +36,13 @@ jobs:
             /src/admin/.gitignore
 
       - name: Find ignore after rm
-        run: find . -file "..gitignore" -print
+        run: find . -name "..gitignore" -print
 
       - name: Build 11ty
         run: npm run build
 
       - name: Find ignore after 11ty
-        run: find . -file ".gitignore" -print
+        run: find . -name ".gitignore" -print
 
 
       - name: Deploy
