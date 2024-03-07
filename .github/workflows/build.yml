@@ -32,7 +32,12 @@ jobs:
       - name: Remove .gitignore for deploy
         run: | 
           rm -f \
-            /docs/admin/.gitignore
+            /docs/admin/.gitignore \
+            /.gitignore \
+            /src/admin/.gitignore
+
+      - name: Manual copy src/admin/index.html
+        run: cp /src/admin/index.html /docs/admin
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
