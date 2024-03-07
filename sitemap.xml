@@ -2,63 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zpdems.org/posts/Hate-Post-1/</loc>
+    <lastmod>2024-03-06T00:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zpdems.org/posts/Talking-Points-Post-1/</loc>
+    <lastmod>2024-03-06T00:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zpdems.org/posts/Event-Post-1/</loc>
+    <lastmod>2024-03-07T00:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zpdems.org/posts/Hate-Post-2/</loc>
+    <lastmod>2024-03-07T05:00:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zpdems.org/404.html</loc>
-    <lastmod>2024-03-05T14:47:29.769Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.247Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/500.html</loc>
-    <lastmod>2024-03-05T14:47:29.769Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zpdems.org/admin/</loc>
-    <lastmod>2024-03-05T14:47:29.769Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.247Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/about/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/donate/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/elections/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/events/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/hatewatch/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/membership/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/posts/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
   </url>
   
   <url>
     <loc>https://zpdems.org/talkingpoints/</loc>
-    <lastmod>2024-03-05T14:47:29.773Z</lastmod>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zpdems.org/tags/event/</loc>
+    <lastmod>2024-03-07T15:45:50.255Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zpdems.org/admin/</loc>
+    <lastmod>2024-03-07T15:47:34.519Z</lastmod>
   </url>
   
 </urlset>
