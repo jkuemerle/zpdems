@@ -36,7 +36,7 @@ jobs:
             /src/admin/.gitignore
 
       - name: Find ignore after rm
-        run: find . -name "..gitignore" -print
+        run: find . -name ".gitignore" -print
 
       - name: Build 11ty
         run: npm run build
@@ -44,6 +44,14 @@ jobs:
       - name: Find ignore after 11ty
         run: find . -name ".gitignore" -print
 
+      - name: Remove the .gitignore after 11ty so it  deploys correctly
+        run: | 
+          rm -f \
+            /docs/admin/.gitignore \
+            /src/admin/.gitignore
+
+      - name: Find ignore after final rm
+        run: find . -name ".gitignore" -print
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
