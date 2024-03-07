@@ -3,3 +3,4 @@ node_modules
 .prettierrc
 *.css.map
 .env
+/src/admin/index.html
