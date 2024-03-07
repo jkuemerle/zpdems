@@ -26,6 +26,13 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
         run: npx tinacms build
 
+      - name: Remove the .gitignore that Tina adds so it  deploys correctly
+        run: | 
+          rm -f \
+            /docs/admin/.gitignore \
+            /src/admin/.gitignore
+
+
       - name: Build 11ty
         run: npm run build
 

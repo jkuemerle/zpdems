@@ -5,3 +5,4 @@ node_modules
 .env
 /src/admin/index.html
 /docs/admin/index.html
+/src/admin/assets
