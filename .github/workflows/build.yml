@@ -36,8 +36,9 @@ jobs:
             /.gitignore \
             /src/admin/.gitignore
 
-      - name: Manual copy src/admin/index.html
-        run: cp /src/admin/index.html /docs/admin
+      - name: find index.html
+          run: find index.html -print
+        #run: cp /src/admin/index.html /docs/admin
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
