@@ -27,7 +27,7 @@ jobs:
         run: npx tinacms build
 
       - name: copy admin index
-        cmd: cp ./src/admin/index.html ./src/admin/admin.html
+        run: cp ./src/admin/index.html ./src/admin/admin.html
 
       # - name: Remove the .gitignore that Tina adds so it  deploys correctly
       #   run: | 
