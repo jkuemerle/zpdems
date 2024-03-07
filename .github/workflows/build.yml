@@ -31,9 +31,9 @@ jobs:
 
       - name: Remove the .gitignore that Tina adds so it  deploys correctly
         run: | 
-          rm -f \
-            /docs/admin/.gitignore \
-            /src/admin/.gitignore
+          rm -f -v \
+            ./docs/admin/.gitignore \
+            ./src/admin/.gitignore
 
       - name: Find ignore after rm
         run: find . -name ".gitignore" -print
@@ -46,9 +46,9 @@ jobs:
 
       - name: Remove the .gitignore after 11ty so it  deploys correctly
         run: | 
-          rm -f \
-            /docs/admin/.gitignore \
-            /src/admin/.gitignore
+          rm -f -v \
+            ./docs/admin/.gitignore \
+            ./src/admin/.gitignore
 
       - name: Find ignore after final rm
         run: find . -name ".gitignore" -print
