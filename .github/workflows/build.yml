@@ -29,6 +29,11 @@ jobs:
       - name: Build 11ty
         run: npm run build
 
+      - name: Remove .gitignore for deploy
+        run: | 
+          rm -f \
+            /docs/admin/.gitignore
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
         with:
