@@ -80,46 +80,6 @@ export default defineConfig({
           },
         ],
       },
-      {
-        name: "page",
-        label: "Pages",
-        path: "/src/pages",
-        format: "mdx",
-        defaultItem: () => {
-          return { 
-            layout: "page",
-          }
-        },
-        ui: {
-          allowedActions: {
-            create: true,
-            delete: true,
-          },
-        },
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-          },
-          {
-            type: "string",
-            name: "layout",
-            label: "Layout",
-          },
-          {
-            type: "string",
-            name: "permalink",
-            label: "Permalink"
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
     ],
   },
 });
